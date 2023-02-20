@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
- * Description: prints all possible combinations
- * of single-digit numbers
+ * main - prints all possible combinations of single-digit numbers
+ *
  * Return: 0
  */
 int main(void)
@@ -15,11 +14,10 @@ int main(void)
 		putchar(48 + c);
 		if (c != 9)
 		{
-			putchar(',');
-			putchar(' ');
+		putchar(',');
+		putchar(' ');
 		}
-		c++;
-	}
+		}
 	putchar('\n');
 	return (0);
 }
